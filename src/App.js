@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -16,7 +16,11 @@ function App() {
           rel="noopener noreferrer"
         >
           <h2>Course Hunt</h2>
+          Learn React
+
         </a>
+        <h3>farjana</h3>
+        <h4>Development Branch added</h4>
       </header>
     </div>
   );
