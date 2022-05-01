@@ -1,10 +1,13 @@
 import "./App.css";
+import Home from "../src/Pages/Home/Home";
+import Header from "./Shared/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <Header />
+      <Home />
+    </>
   );
 }
 

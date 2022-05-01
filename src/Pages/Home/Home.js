@@ -1,12 +1,15 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
+import Hero from "../../Components/Home/Hero/Hero";
+import TopCourses from "../../Components/Home/TopCourses/TopCourses";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Home page</h1>
-        </div>
-    );
+  return (
+    <>
+      <Hero />
+      <TopCourses />
+    </>
+  );
 };
 
 export default Home;
